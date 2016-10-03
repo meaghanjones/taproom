@@ -18,13 +18,25 @@ Here are the user stories we used to build the app. As a bartender ...
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+## Setup 
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+Steps when beginning a new project, or cloning an existing one:
+1. Run npm install and bower install to install dependencies.
+2. Install any global packages such as gulp, bower, sass, typescript, and our text editor's typescript packages.
+3. Build the project with gulp build.
+4. Run it with: gulp serve.
+
+1. user npm to install bower globally. user bower to manage front-end dependencies for the app
+2. run bower's `init` command to create the manifest file
+```
+$ npm install bower -g
+$ bower init
+```
+any time we need a front-end dependency we can add it using
+
+```
+$ bower install packagename --save
+```
 
 ## Known Bugs
 
